@@ -51,7 +51,7 @@ nav {
    position: fixed;
    top:150px ;
    left: 25px;
-   background-color: rgb(75, 178, 47);
+   background-color: rgb(0, 0, 0);
    
 }
 
@@ -348,3 +348,45 @@ section .profilepic{
    font-size: 20pt;
    color: white;
  }
+ .iconnav{
+
+   
+   
+   width: 30px;
+   height: 30px;
+   margin-left: 0;
+   margin-top: 25px;
+
+ }
+
+.containernav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 200px; 
+   height: 0px;
+   margin-top: 20px;
+   padding-bottom: 50px;
+
+
+
+}
+.feature{
+   text-align: left;
+   color: white;
+   font-size: 20pt;
+   margin-left: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.containerfeature{
+   width: 00px; 
+   height: 40px; 
+   padding-top: 115px;
+   padding-right: 00px;
+   margin-left: 0px;
+   margin-top: -90px;
+   margin-right: 140px;
+
+}
