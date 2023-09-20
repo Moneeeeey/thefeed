@@ -11,7 +11,7 @@ body {
    left: 25px;
    color: rgb(18, 146, 137);
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color: rgb(123, 48, 48);
+   background-color: rgb(0, 0, 0);
  
 
 }
@@ -48,7 +48,7 @@ nav {
    width: 300px;
    height: 550px;
    position: fixed;
-   top:250px ;
+   top:150px ;
    left: 25px;
    background-color: rgb(75, 178, 47);
    
@@ -79,10 +79,17 @@ footer {
  section {
    margin-top: -1px;
    border: 0.5px rgb(255, 255, 255, 0.5) solid;
-   text-align: center;
+   
    padding: 15px;
    
  }
+
+ .action-buttons {
+
+   text-align: center;
+
+ }
+
 
  section img {
 
@@ -104,8 +111,9 @@ footer {
    height: 806px;
    align-items: center;
    margin-right: 100px;
-   margin-bottom: 50px;
+   margin-bottom: 10px;
    border-radius: 20px;
+   
 
 
  }
@@ -113,8 +121,9 @@ footer {
  #picone{
    align-items: center;
    margin-right: 290px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
    border-radius: 20px;
+   background-color: aliceblue;
  }
 
 #gif {
@@ -128,8 +137,13 @@ footer {
 
    text-align: center;
  }
+#picbox{
 
+   height: 400px; 
+   margin-bottom: -50px;
+   background-color: antiquewhite;
 
+}
 
 .sidebar {
 
@@ -182,24 +196,36 @@ img{
    background-color: #0056b3; 
 }
 section .profilepic{
-   width: 70px;
+   width: 50px;
+   height: 50px;
    border-radius: 50px;
+   margin-left: 0;
+   margin-top: 10px;
 }
 .profilepictext{
-   width: 300px; 
-   height: 250px; 
-   padding-top: 50px;
+   width: 700px; 
+   height: 10px; 
+   padding-top: 115px;
+   padding-right: 100px;
+   margin-left: 0px;
+   margin-top: -100px;
+
 
 }
 
 .profilepictext p {
    text-align: left;
+   margin-top: 5px;
+   margin-left: 10px;
 }
 
 .username{
    text-align: left;
    color: white;
    opacity: 50%;
+   margin-left: 10px;
+  
+  
    
 }
 
@@ -217,7 +243,7 @@ section .profilepic{
    flex-direction: row;
    justify-content: space-between;
    width: 600px; 
-   height: 250px; 
+   height: 0px; 
 }
 
 #homepagegif{
@@ -227,7 +253,9 @@ section .profilepic{
 }
 #homepagegif{
 
-   margin-right: 100px;
+   margin-left: 50px;
+   margin-top: 75px;
+   width: 200px;
 
 }
 #hoverimg{
@@ -237,3 +265,4 @@ section .profilepic{
 #hoverimg:hover {
    transform: scale(1.1); 
 }
+
