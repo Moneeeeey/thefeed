@@ -31,16 +31,16 @@
         <nav>
 
             <div class="sidebar">
-                <h2> FEED </h2>
-                <ol>
-                    <li><a href="#" class="sbt">Home</a></li>
-                    <li><a href="#" class="sbt">Explore</a></li>
-                    <li><a href="#" class="sbt">Saved</a></li>
-                    <li><a href="#" class="sbt">Setting</a></li>
-                    <li><a href="#" class="sbt">Profile</a></li>
-                </ol>
-            </div>
-
+                <div class="dropdown">
+                    <span>  <b> FEED </b> </span>
+                    <div class="dropdown-content">
+                    <p>Hello World!</p>
+                    <p>Hello!</p>
+                    <p> World!</p>
+                    <p>Friends</p>
+                    </div>
+                  </div>
+               
         </nav>
         
        
@@ -49,7 +49,17 @@
             <div class="rightside">
 
 
-                <p> Something </p>
+                <div class="search-container">
+                    <form action="search-results.html" method="GET">
+                        <i class="search-icon fas fa-search"></i>
+                        <input type="text" class="search-input" name="query" placeholder="Explore">
+                        <img src="img/Searchicon.png" alt="Default Profile Picture"> 
+                    </form>
+                </div>
+
+
+
+        
     
     
             </div>
@@ -73,13 +83,8 @@
 
                 <img id="picone" src="img/SwordHeartt.jpg" alt="Swords inisde a heart graphic"> 
                 
-                <div class="action-buttons">
-                    <button class="like-button">Like </button>
-                    <button class="share-button">Share</button>
-                    <button class="comment-button"> Commnet </button>
-                    
-                </div>
             
+
             </section>
             <section>  
                 <div class="post">
@@ -92,11 +97,7 @@
             
                 </div>
             <img class="pics" src="img/Lock-Screen.png" alt="lock screen barbie">
-            <div class="action-buttons">
-                <button class="like-button">Like</button>
-                <button class="share-button">Share</button>
-                <button class="comment-button">Comment</button>
-            </div> 
+           
             </section>
              
             <section>  
@@ -113,11 +114,7 @@
                 </div>
                 
             <img class="pics" src="img/Twitter.png" alt="Twitter home page">
-            <div class="action-buttons">
-                <button class="like-button">Like</button>
-                <button class="share-button">Share</button>
-                <button class="comment-button">Comment</button>
-            </div>
+            
             </section>
             
             <section>  
@@ -131,11 +128,7 @@
             
                 </div>
             <img class="pics" src="img/Spotify.png" alt="Spotify">
-            <div class="action-buttons">
-                <button class="like-button">Like</button>
-                <button class="share-button">Share</button>
-                <button class="comment-button">Comment</button>
-            </div>
+            
             </section>
 
             <section>  
@@ -149,11 +142,7 @@
             
                 </div>
             <img class="pics" src="img/Photos.png" alt="photos">
-            <div class="action-buttons">
-                <button class="like-button">Like</button>
-                <button class="share-button">Share</button>
-                <button class="comment-button">Comment</button>
-            </div>
+            
             </section>
 
             <section>  
@@ -167,11 +156,7 @@
             
                 </div>
             <img class="pics" src="img/Bet.png" alt="bet">
-            <div class="action-buttons">
-                <button class="like-button">Like</button>
-                <button class="share-button">Share</button>
-                <button class="comment-button">Comment</button>
-            </div>
+            
             </section>
         </main>
 
@@ -179,9 +164,8 @@
         
             <a href="index.html"> 
                 <img id="footerpic" src="img/F_for_feed.png" alt="The tiny F for the feed">
-                <img id="" src="img/1_Cookie_Cutter.jpg" alt="The tiny F for the feed">
             </a>
-
+            <img id="copyright" src="img/copyright-symbol-icon-vector-illustration.jpg" alt="The tiny F for the feed">
         </footer>
 
     </body>
