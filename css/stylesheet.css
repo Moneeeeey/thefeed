@@ -71,7 +71,7 @@ main img{
 
 }
 footer {
-   background-color: rgb(69, 8, 8);
+   background-color: rgb(0, 0, 0);
    width: 430px;
    height: 100px;
    position: fixed;
@@ -110,13 +110,7 @@ footer {
    
 
  }
- #copyright{
-
-   width: 30px;
-   height: 30px;
-   margin-left: 20px;
-   margin-bottom: 4px;
- }
+ 
 .pics {
  
    width: 400px;
@@ -268,13 +262,14 @@ section .profilepic{
 
 
 .search-input {
+   color: white;
    width: 350px;
    padding: 10px;
    font-size: 16px;
    border: none;
    border-radius: 25px; 
-   background-color: #f5f8fa; 
-   opacity: 70%;
+   background-color: #2d2f31; 
+   opacity: 100%;
    outline: none; /* Remove input field outline */
    padding-left: 20px; /* Add space for the search icon */
 }
@@ -389,4 +384,10 @@ section .profilepic{
    margin-top: -90px;
    margin-right: 140px;
 
+}
+.picfooter{
+   width: 30px;
+   height: 30px;
+   margin-left: 0px;
+   margin-right: 40px;
 }
