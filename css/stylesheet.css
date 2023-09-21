@@ -155,7 +155,7 @@ footer {
 }
 
 .sidebar {
-   size: 100%;
+   width: 100%;
    position: fixed;
    color: white;
    text-decoration: none;
