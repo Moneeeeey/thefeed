@@ -248,6 +248,37 @@ section .profilepic{
    position: fixed;
 
 }
+#friendslist{
+   margin-top: -30px;
+   width: 435px;
+   height: 600px;
+   background-color: rgb(0, 0, 0);
+   right: 10px;
+   top: 100px;
+   position: fixed;
+   border:0.2px rgb(255, 255, 255, 0.5) solid ;
+   border-radius: 30px;
+   margin-left: 5px;
+
+   
+}
+
+#friendslist p{
+
+   color: white;
+   margin-left: 20px;
+   margin-top: 20px;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#friendslist h4{
+
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 22px;
+}
+
 
 .rightside p {
 
@@ -264,12 +295,12 @@ section .profilepic{
 
 .search-input {
    color: white;
-   width: 350px;
+   width: 390px;
    padding: 10px;
    font-size: 16px;
    border: none;
    border-radius: 25px; 
-   background-color: #2d2f31; 
+   background-color: #3a3e42; 
    opacity: 100%;
    outline: none; /* Remove input field outline */
    padding-left: 20px; /* Add space for the search icon */
