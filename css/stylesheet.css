@@ -462,7 +462,7 @@ section .profilepic{
 #friendspic{
    width: 200px;
    margin-top: 20px;
-   margin-left: 10px;
+   margin-left: 20px;
 }
 @font-face {
    font-family: 'Roboto';
