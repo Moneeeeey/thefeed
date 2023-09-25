@@ -30,6 +30,9 @@ h3 {
 
 h4{
   color: white;
+  padding: 10px;
+  margin-left: -5px;
+  
 }
 
 
@@ -303,17 +306,17 @@ section .profilepic{
    border-radius: 25px; 
    background-color: #3a3e42; 
    opacity: 100%;
-   outline: none; /* Remove input field outline */
-   padding-left: 20px; /* Add space for the search icon */
+   outline: none; 
+   padding-left: 20px; 
 }
 
-/* Style for the search icon */
+
 .search-icon {
    position: absolute;
    left: 10px;
    top: 50%;
    transform: translateY(-50%);
-   color: #ffffff; /* Twitter's icon color */
+   color: #ffffff;
 }
 
 
@@ -391,6 +394,7 @@ section .profilepic{
    height: 0px;
    margin-top: 20px;
    padding-bottom: 50px;
+  
 
 
 
@@ -400,6 +404,7 @@ section .profilepic{
    color: white;
    font-size: 20pt;
    margin-left: 0px;
+   
    font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -427,4 +432,38 @@ section .profilepic{
    
   
 
+}
+#video{
+   margin-top: 80px;
+   margin-left: 60px;
+   border-radius: 20px;
+   border:0.5px rgb(255, 255, 255, 0.5) solid ;
+}
+#bottomright{
+   margin-top: -30px;
+   width: 435px;
+   height: 160px;
+   background-color: rgb(0, 0, 0);
+   right: 10px;
+   top: 720px;
+   position: fixed;
+   border-radius: 30px;
+   margin-left: 5px;
+}
+
+#bottomright p{
+
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   opacity: 60%;
+   text-align: center;
+   margin-top: 40px;
+   font-size: 8pt;
+}
+#bottomright span{
+
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+opacity: 60%;
+text-align: center;
 }
