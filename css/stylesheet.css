@@ -30,7 +30,7 @@ h3 {
 
 h4{
   color: white;
-  padding: 10px;
+  padding: 7px;
   margin-left: -5px;
   
 }
@@ -255,7 +255,7 @@ section .profilepic{
 #friendslist{
    margin-top: -30px;
    width: 435px;
-   height: 600px;
+   height: 650px;
    background-color: rgb(0, 0, 0);
    right: 10px;
    top: 100px;
@@ -405,8 +405,6 @@ section .profilepic{
    font-size: 20pt;
    margin-left: 0px;
    
-   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .containerfeature{
@@ -440,7 +438,7 @@ section .profilepic{
    border:0.5px rgb(255, 255, 255, 0.5) solid ;
 }
 #bottomright{
-   margin-top: -30px;
+   margin-top: 20px;
    width: 435px;
    height: 160px;
    background-color: rgb(0, 0, 0);
@@ -449,6 +447,7 @@ section .profilepic{
    position: fixed;
    border-radius: 30px;
    margin-left: 5px;
+
 }
 
 #bottomright p{
@@ -457,13 +456,17 @@ section .profilepic{
    font-family: Arial, Helvetica, sans-serif;
    opacity: 60%;
    text-align: center;
-   margin-top: 40px;
-   font-size: 8pt;
+   font-size: 10pt;
 }
-#bottomright span{
 
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-opacity: 60%;
-text-align: center;
+#friendspic{
+   width: 200px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+@font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
