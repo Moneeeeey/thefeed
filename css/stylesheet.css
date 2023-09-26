@@ -35,7 +35,11 @@ h4{
   
 }
 
-
+ol{
+   list-style-type: none;
+   padding-top: 10px;
+  
+}
 
 p {
 
@@ -90,6 +94,16 @@ footer {
    padding: 15px;
    
  }
+ li{
+
+   margin-top: 20px ;
+}
+
+img{ 
+   margin-left: 120px;
+   margin-top: 110px;
+   width: 70%;
+}
 
  .action-buttons {
 
@@ -170,11 +184,7 @@ footer {
 
    
 }
-ol{
-   list-style-type: none;
-   padding-top: 10px;
-  
-}
+
 .sbt {
    position: fixed;
    color: white;
@@ -184,16 +194,7 @@ ol{
 
 
 }
-li{
 
-   margin-top: 20px ;
-}
-
-img{ 
-   margin-left: 120px;
-   margin-top: 110px;
-   width: 70%;
-}
 
 .action-buttons button {
    margin: 5px;
