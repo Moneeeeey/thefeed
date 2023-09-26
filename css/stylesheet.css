@@ -458,6 +458,7 @@ section .profilepic{
    opacity: 60%;
    text-align: center;
    font-size: 10pt;
+   color: #ffffff;
 }
 
 #friendspic{
